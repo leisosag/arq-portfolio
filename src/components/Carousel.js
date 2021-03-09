@@ -1,22 +1,16 @@
 import React from 'react';
+import CarouselItem from './CarouselItem.js';
 
 const Carousel = ({ img }) => {
   return (
     <div id='carouselControls' className='carousel slide' data-ride='carousel'>
+      {/* carousel container */}
       <div className='carousel-inner'>
-        <div className='carousel-item active'>
-          <img src={img[0].src} className='d-block w-100' alt={img[0].name} />
-        </div>
-        <div className='carousel-item'>
-          <img src={img[1].src} className='d-block w-100' alt={img[1].name} />
-        </div>
-        <div className='carousel-item'>
-          <img src={img[2].src} className='d-block w-100' alt={img[2].name} />
-        </div>
-        <div className='carousel-item'>
-          <img src={img[3].src} className='d-block w-100' alt={img[3].name} />
-        </div>
+        {img.map((item) => (
+          <CarouselItem item={item} />
+        ))}
       </div>
+      {/* carousel controlls */}
       <a
         className='carousel-control-prev'
         href='#carouselControls'

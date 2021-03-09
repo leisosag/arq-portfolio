@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+:root {
+  --primary: rgb(0, 225, 255);
+  --white: #fff;
+  --grey: #909090;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+/***** BUTTONS *****/
+.btn-border {
+  border: 1px solid var(--white);
+  background-color: transparent;
+  color: var(--white);
+  padding: 0.5rem 2rem;
+  border-radius: 0px;
+  transition: 0.5s all;
+}
+.btn-border:hover {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+/***** NAVBAR *****/
+.navbar {
+  height: 10vh;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  background-color: rgba(42, 42, 42, 0.9);
+  display: flex;
+  color: var(--white);
+}
+.navbar-dark .navbar-nav .nav-link {
+  text-transform: uppercase;
+  color: var(--grey);
+  font-size: 0.8rem;
+  border-top: 1px solid transparent;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--white);
+  border-top: 1px solid var(--white);
+}
+/***** HOME PAGE *****/
+#homepage {
+  height: 100vh;
+}
+/***** CAROUSEL *****/
+.carousel-inner {
+  z-index: 0;
+}
+.carousel-item img {
+  height: 100vh;
+}
+.carousel-caption {
+  top: 35%;
+  text-align: left;
+}
+.carousel-caption h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}

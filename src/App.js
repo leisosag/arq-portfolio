@@ -1,34 +1,19 @@
-import Carousel from './components/Carousel.js';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage.js';
+import ContactPage from './pages/ContactPage.js';
+import ProjectsPage from './pages/ProjectsPage.js';
+import ProjectPage from './pages/ProjectPage.js';
 
 const App = () => {
-  const imgLanding = [
-    {
-      id: 1,
-      name: 'proyecto 1',
-      src: 'img/p1.jpg',
-    },
-    {
-      id: 2,
-      name: 'proyecto 2',
-      src: 'img/p2.jpg',
-    },
-    {
-      id: 3,
-      name: 'proyecto 3',
-      src: 'img/p3.jpg',
-    },
-    {
-      id: 4,
-      name: 'proyecto 4',
-      src: 'img/p4.jpg',
-    },
-  ];
-
   return (
-    <div>
-      <h1>navbar</h1>
-      <Carousel img={imgLanding} />
-    </div>
+    <Router>
+      <main>
+        <Route path='/' component={HomePage} exact />
+        <Route path='/proyectos' component={ProjectsPage} exact />
+        <Route path='/contacto' component={ContactPage} exact />
+        <Route path='/proyectos/:id' component={ProjectPage} />
+      </main>
+    </Router>
   );
 };
 
