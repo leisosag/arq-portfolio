@@ -1,9 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Project from '../components/Project.js';
+import Navbar from '../components/Navbar.js';
+import projects from '../projects';
 
-const ProjectPage = () => {
+const ProjectPage = ({ match }) => {
+  const project = projects.find((p) => p.id === match.params.id);
+
   return (
     <div>
-      <h1>{`Proyecto 1`}</h1>
+      <Navbar />
+      <Project project={project} />
     </div>
   );
 };

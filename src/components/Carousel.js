@@ -1,14 +1,19 @@
 import React from 'react';
 import CarouselItem from './CarouselItem.js';
 
-const Carousel = ({ img }) => {
+const Carousel = ({ img, type }) => {
   return (
     <div id='carouselControls' className='carousel slide' data-ride='carousel'>
       {/* carousel container */}
       <div className='carousel-inner'>
-        {img.map((item) => (
+        {type === 'projects'
+          ? img.map((item) => <CarouselItem item={item} type={'projects'} />)
+          : img.images.map((item) => (
+              <CarouselItem item={item} type={'singleProject'} />
+            ))}
+        {/*img.map((item) => (
           <CarouselItem item={item} />
-        ))}
+        ))*/}
       </div>
       {/* carousel controlls */}
       <a
@@ -34,3 +39,15 @@ const Carousel = ({ img }) => {
 };
 
 export default Carousel;
+
+/*
+
+img.map((item) => (
+              <CarouselItem item={item} type={'singleProject'} />
+            ))
+
+img.images.map((item) => (
+              <CarouselItem item={item} type={'singleProject'} />
+            ))
+
+            */

@@ -2,7 +2,11 @@
 :root {
   --primary: rgb(0, 225, 255);
   --white: #fff;
+  --white-transparent: rgb(255, 255, 255, 0.5);
   --grey: #909090;
+  --black: #121212;
+  --black-medium: #2c2c2c;
+  --black-transparent: rgb(18, 18, 18, 0.5);
 }
 body {
   font-family: 'Raleway', sans-serif;
@@ -20,13 +24,20 @@ body {
   border: 1px solid var(--primary);
   color: var(--primary);
 }
+.btn-circle {
+  border-radius: 100%;
+  padding: 1rem 1.5rem;
+  border: 1px solid var(--black);
+  color: var(--black);
+  background-color: var(--white-transparent);
+}
 /***** NAVBAR *****/
 .navbar {
   height: 10vh;
   width: 100%;
-  position: absolute;
+  /*position: absolute;
   top: 0px;
-  z-index: 1;
+  z-index: 1;*/
   background-color: rgba(42, 42, 42, 0.9);
   display: flex;
   color: var(--white);
@@ -52,6 +63,9 @@ body {
 .carousel-item img {
   height: 100vh;
 }
+.carousel-item-homepage img {
+  filter: brightness(70%);
+}
 .carousel-caption {
   top: 35%;
   text-align: left;
@@ -61,4 +75,42 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 2rem;
+  color: var(--black);
+  color: var(--white);
+}
+/***** COLLAPSE *****/
+#collapse-container {
+  position: absolute;
+  top: 15vh;
+  left: 50%;
+  z-index: 1;
+}
+.collapse .card-body {
+  background-color: var(--black-transparent);
+  color: var(--white);
+  position: absolute;
+  top: -5vh;
+  left: -50vw;
+  width: 40vw;
+  border-radius: 0;
+}
+#project-info {
+  padding-top: 10vh;
+  min-height: 90vh;
+  margin: 0;
+}
+#project-info h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+}
+#project-info h4 {
+  text-transform: uppercase;
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+.project-info-details p {
+  line-height: 0.7rem;
 }

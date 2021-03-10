@@ -1,0 +1,190 @@
+[
+  {
+    "id": "1",
+    "name": "Vivienda Unifamiliar",
+    "img": "img/A1casa1.jpg",
+    "images": [
+      {
+        "id": "img1",
+        "img": "/img/A1casa1.jpg"
+      },
+      {
+        "id": "img2",
+        "img": "/img/A1casa2.jpg"
+      },
+      {
+        "id": "img3",
+        "img": "/img/A1casa3.jpg"
+      },
+      {
+        "id": "img4",
+        "img": "/img/A1casa4.jpg"
+      },
+      {
+        "id": "img5",
+        "img": "/img/A1casa5.jpg"
+      },
+      {
+        "id": "img6",
+        "img": "/img/A1casa6.jpg"
+      },
+      {
+        "id": "img7",
+        "img": "/img/A1casa7.jpg"
+      },
+      {
+        "id": "img8",
+        "img": "/img/A1casa8.jpg"
+      },
+      {
+        "id": "img9",
+        "img": "/img/A1casa9.jpg"
+      }
+    ],
+    "ubicacion": "Villa Lugano, CABA",
+    "terreno": "150m²",
+    "construido": "100m²",
+    "memoria": "Costa Esmeralda es un emprendimiento privado sobre los médanos de la costa bonaerense a 390 Km de Buenos Aires. Se trata de una urbanización reciente con una forestación joven de acacias y pinos marítimos y algunos sectores de bosque consolidado. El terreno, con un extenso frente de cuarenta y cinco metros, pertenece a este último sector de manera que la casa debía incorporar ese paisaje privilegiado, aunque cuidando de preservar su intimidad hacia la calle. Había que considerar también que el médano del que forma parte tiene una pendiente de casi dos metros sobre el frente y que, si bien su entorno posee una densa arboleda, el terreno cuenta con especies solo parcialmente."
+  },
+  {
+    "id": "2",
+    "name": "Intervención en Diagonal Sur",
+    "img": "img/PUR1.jpg",
+    "images": [
+      {
+        "id": "img1",
+        "img": "/img/PUR1.jpg"
+      },
+      {
+        "id": "img2",
+        "img": "/img/PUR2.jpg"
+      },
+      {
+        "id": "img3",
+        "img": "/img/PUR3.jpg"
+      },
+      {
+        "id": "img4",
+        "img": "/img/PUR4.jpg"
+      },
+      {
+        "id": "img5",
+        "img": "/img/PUR5.jpg"
+      },
+      {
+        "id": "img6",
+        "img": "/img/PUR6.jpg"
+      },
+      {
+        "id": "img7",
+        "img": "/img/PUR8.jpg"
+      },
+      {
+        "id": "img8",
+        "img": "/img/PUR8.jpg"
+      },
+      {
+        "id": "img9",
+        "img": "/img/PUR9.jpg"
+      },
+      {
+        "id": "img10",
+        "img": "/img/PUR10.jpg"
+      }
+    ],
+    "ubicacion": "Monserrat, CABA",
+    "terreno": "300m²",
+    "construido": "200m²",
+    "memoria": "Costa Esmeralda es un emprendimiento privado sobre los médanos de la costa bonaerense a 390 Km de Buenos Aires. Se trata de una urbanización reciente con una forestación joven de acacias y pinos marítimos y algunos sectores de bosque consolidado. El terreno, con un extenso frente de cuarenta y cinco metros, pertenece a este último sector de manera que la casa debía incorporar ese paisaje privilegiado, aunque cuidando de preservar su intimidad hacia la calle. Había que considerar también que el médano del que forma parte tiene una pendiente de casi dos metros sobre el frente y que, si bien su entorno posee una densa arboleda, el terreno cuenta con especies solo parcialmente."
+  },
+  {
+    "id": "3",
+    "name": "Ministerio de Vivienda",
+    "img": "img/PA1.jpg",
+    "images": [
+      {
+        "id": "img1",
+        "img": "/img/PA1.jpg"
+      },
+      {
+        "id": "img2",
+        "img": "/img/PA2.jpg"
+      },
+      {
+        "id": "img3",
+        "img": "/img/PA3.jpg"
+      },
+      {
+        "id": "img4",
+        "img": "/img/PA4.jpg"
+      },
+      {
+        "id": "img5",
+        "img": "/img/PA5.jpg"
+      },
+      {
+        "id": "img6",
+        "img": "/img/PA6.jpg"
+      },
+      {
+        "id": "img7",
+        "img": "/img/PA7.jpg"
+      },
+      {
+        "id": "img8",
+        "img": "/img/PA8.jpg"
+      },
+      {
+        "id": "img9",
+        "img": "/img/PA9.jpg"
+      },
+      {
+        "id": "img10",
+        "img": "/img/PA10.jpg"
+      },
+      {
+        "id": "img11",
+        "img": "/img/PA11.jpg"
+      },
+      {
+        "id": "img12",
+        "img": "/img/PA12.jpg"
+      }
+    ],
+    "ubicacion": "Monserrat, CABA",
+    "terreno": "300m²",
+    "construido": "200m²",
+    "memoria": "Costa Esmeralda es un emprendimiento privado sobre los médanos de la costa bonaerense a 390 Km de Buenos Aires. Se trata de una urbanización reciente con una forestación joven de acacias y pinos marítimos y algunos sectores de bosque consolidado. El terreno, con un extenso frente de cuarenta y cinco metros, pertenece a este último sector de manera que la casa debía incorporar ese paisaje privilegiado, aunque cuidando de preservar su intimidad hacia la calle. Había que considerar también que el médano del que forma parte tiene una pendiente de casi dos metros sobre el frente y que, si bien su entorno posee una densa arboleda, el terreno cuenta con especies solo parcialmente."
+  },
+  {
+    "id": "4",
+    "name": "Conjunto de Viviendas",
+    "img": "img/A3viviendas1.jpg",
+    "images": [
+      {
+        "id": "img1",
+        "img": "/img/A3viviendas1.jpg"
+      },
+      {
+        "id": "img2",
+        "img": "/img/A3viviendas2.jpg"
+      },
+      {
+        "id": "img3",
+        "img": "/img/A3viviendas3.jpg"
+      },
+      {
+        "id": "img4",
+        "img": "/img/A3viviendas4.jpg"
+      },
+      {
+        "id": "img5",
+        "img": "/img/A3viviendas5.jpg"
+      }
+    ],
+    "ubicacion": "Paternal, CABA",
+    "terreno": "300m²",
+    "construido": "200m²",
+    "memoria": "Costa Esmeralda es un emprendimiento privado sobre los médanos de la costa bonaerense a 390 Km de Buenos Aires. Se trata de una urbanización reciente con una forestación joven de acacias y pinos marítimos y algunos sectores de bosque consolidado. El terreno, con un extenso frente de cuarenta y cinco metros, pertenece a este último sector de manera que la casa debía incorporar ese paisaje privilegiado, aunque cuidando de preservar su intimidad hacia la calle. Había que considerar también que el médano del que forma parte tiene una pendiente de casi dos metros sobre el frente y que, si bien su entorno posee una densa arboleda, el terreno cuenta con especies solo parcialmente."
+  }
+]

@@ -1,22 +1,22 @@
 [
   {
     "id": 1,
-    "name": "Proyecto 1",
-    "img": "img/p1.jpg"
+    "name": "Ministerio de Vivienda",
+    "img": "img/PA1.jpg"
   },
   {
     "id": 2,
-    "name": "Proyecto 2",
-    "img": "img/p2.jpg"
+    "name": "Vivienda Unifamiliar",
+    "img": "img/A1casa1.jpg"
   },
   {
     "id": 3,
-    "name": "Proyecto 3",
-    "img": "img/p3.jpg"
+    "name": "Intervención en Diagonal Sur",
+    "img": "img/PUR1.jpg"
   },
   {
     "id": 4,
-    "name": "Proyecto 4",
-    "img": "img/p4.jpg"
+    "name": "Conjunto de Viviendas",
+    "img": "img/A3viviendas1.jpg"
   }
 ]
