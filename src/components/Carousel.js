@@ -2,18 +2,22 @@ import React from 'react';
 import CarouselItem from './CarouselItem.js';
 
 const Carousel = ({ img, type }) => {
+  let someProjects = [];
+  if (type === 'projects') {
+    someProjects = img.slice(0, 4);
+  }
+
   return (
     <div id='carouselControls' className='carousel slide' data-ride='carousel'>
       {/* carousel container */}
       <div className='carousel-inner'>
         {type === 'projects'
-          ? img.map((item) => <CarouselItem item={item} type={'projects'} />)
+          ? someProjects.map((item) => (
+              <CarouselItem item={item} type={'projects'} />
+            ))
           : img.images.map((item) => (
               <CarouselItem item={item} type={'singleProject'} />
             ))}
-        {/*img.map((item) => (
-          <CarouselItem item={item} />
-        ))*/}
       </div>
       {/* carousel controlls */}
       <a
@@ -39,15 +43,3 @@ const Carousel = ({ img, type }) => {
 };
 
 export default Carousel;
-
-/*
-
-img.map((item) => (
-              <CarouselItem item={item} type={'singleProject'} />
-            ))
-
-img.images.map((item) => (
-              <CarouselItem item={item} type={'singleProject'} />
-            ))
-
-            */

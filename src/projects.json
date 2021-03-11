@@ -44,7 +44,7 @@
     "ubicacion": "Villa Lugano, CABA",
     "terreno": "150m²",
     "construido": "100m²",
-    "memoria": "Costa Esmeralda es un emprendimiento privado sobre los médanos de la costa bonaerense a 390 Km de Buenos Aires. Se trata de una urbanización reciente con una forestación joven de acacias y pinos marítimos y algunos sectores de bosque consolidado. El terreno, con un extenso frente de cuarenta y cinco metros, pertenece a este último sector de manera que la casa debía incorporar ese paisaje privilegiado, aunque cuidando de preservar su intimidad hacia la calle. Había que considerar también que el médano del que forma parte tiene una pendiente de casi dos metros sobre el frente y que, si bien su entorno posee una densa arboleda, el terreno cuenta con especies solo parcialmente."
+    "memoria": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
   },
   {
     "id": "2",
@@ -95,7 +95,7 @@
     "ubicacion": "Monserrat, CABA",
     "terreno": "300m²",
     "construido": "200m²",
-    "memoria": "Costa Esmeralda es un emprendimiento privado sobre los médanos de la costa bonaerense a 390 Km de Buenos Aires. Se trata de una urbanización reciente con una forestación joven de acacias y pinos marítimos y algunos sectores de bosque consolidado. El terreno, con un extenso frente de cuarenta y cinco metros, pertenece a este último sector de manera que la casa debía incorporar ese paisaje privilegiado, aunque cuidando de preservar su intimidad hacia la calle. Había que considerar también que el médano del que forma parte tiene una pendiente de casi dos metros sobre el frente y que, si bien su entorno posee una densa arboleda, el terreno cuenta con especies solo parcialmente."
+    "memoria": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
   },
   {
     "id": "3",
@@ -154,11 +154,108 @@
     "ubicacion": "Monserrat, CABA",
     "terreno": "300m²",
     "construido": "200m²",
-    "memoria": "Costa Esmeralda es un emprendimiento privado sobre los médanos de la costa bonaerense a 390 Km de Buenos Aires. Se trata de una urbanización reciente con una forestación joven de acacias y pinos marítimos y algunos sectores de bosque consolidado. El terreno, con un extenso frente de cuarenta y cinco metros, pertenece a este último sector de manera que la casa debía incorporar ese paisaje privilegiado, aunque cuidando de preservar su intimidad hacia la calle. Había que considerar también que el médano del que forma parte tiene una pendiente de casi dos metros sobre el frente y que, si bien su entorno posee una densa arboleda, el terreno cuenta con especies solo parcialmente."
+    "memoria": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
   },
   {
     "id": "4",
-    "name": "Conjunto de Viviendas",
+    "name": "Conjunto de Viviendas de alta densidad",
+    "img": "img/A4viviendas1.png",
+    "images": [
+      {
+        "id": "img1",
+        "img": "/img/A4viviendas1.png"
+      },
+      {
+        "id": "img2",
+        "img": "/img/A4viviendas2.png"
+      },
+      {
+        "id": "img3",
+        "img": "/img/A4viviendas3.png"
+      },
+      {
+        "id": "img4",
+        "img": "/img/A4viviendas4.png"
+      },
+      {
+        "id": "img5",
+        "img": "/img/A4viviendas5.png"
+      },
+      {
+        "id": "img6",
+        "img": "/img/A4viviendas6.png"
+      }
+    ],
+    "ubicacion": "Paternal, CABA",
+    "terreno": "300m²",
+    "construido": "200m²",
+    "memoria": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+  },
+  {
+    "id": "5",
+    "name": "Incubadoras",
+    "img": "img/A2incubadoras1.jpg",
+    "images": [
+      {
+        "id": "img1",
+        "img": "/img/A2incubadoras1.jpg"
+      },
+      {
+        "id": "img2",
+        "img": "/img/A2incubadoras2.jpg"
+      },
+      {
+        "id": "img3",
+        "img": "/img/A2incubadoras3.jpg"
+      }
+    ],
+    "ubicacion": "Paternal, CABA",
+    "terreno": "300m²",
+    "construido": "200m²",
+    "memoria": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+  },
+  {
+    "id": "6",
+    "name": "Club deportivo",
+    "img": "img/A4club1.jpg",
+    "images": [
+      {
+        "id": "img1",
+        "img": "/img/A4club1.jpg"
+      },
+      {
+        "id": "img2",
+        "img": "/img/A4club2.jpg"
+      },
+      {
+        "id": "img3",
+        "img": "/img/A4club3.jpg"
+      },
+      {
+        "id": "img4",
+        "img": "/img/A4club4.jpg"
+      },
+      {
+        "id": "img5",
+        "img": "/img/A4club5.jpg"
+      },
+      {
+        "id": "img6",
+        "img": "/img/A4club6.jpg"
+      },
+      {
+        "id": "img7",
+        "img": "/img/A4club7.jpg"
+      }
+    ],
+    "ubicacion": "Paternal, CABA",
+    "terreno": "300m²",
+    "construido": "200m²",
+    "memoria": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+  },
+  {
+    "id": "7",
+    "name": "Conjunto de Viviendas de mediana densidad",
     "img": "img/A3viviendas1.jpg",
     "images": [
       {
@@ -185,6 +282,67 @@
     "ubicacion": "Paternal, CABA",
     "terreno": "300m²",
     "construido": "200m²",
-    "memoria": "Costa Esmeralda es un emprendimiento privado sobre los médanos de la costa bonaerense a 390 Km de Buenos Aires. Se trata de una urbanización reciente con una forestación joven de acacias y pinos marítimos y algunos sectores de bosque consolidado. El terreno, con un extenso frente de cuarenta y cinco metros, pertenece a este último sector de manera que la casa debía incorporar ese paisaje privilegiado, aunque cuidando de preservar su intimidad hacia la calle. Había que considerar también que el médano del que forma parte tiene una pendiente de casi dos metros sobre el frente y que, si bien su entorno posee una densa arboleda, el terreno cuenta con especies solo parcialmente."
+    "memoria": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+  },
+  {
+    "id": "8",
+    "name": "escuela técnica",
+    "img": "img/A1escuela2.jpg",
+    "images": [
+      {
+        "id": "img1",
+        "img": "/img/A1escuela1.jpg"
+      },
+      {
+        "id": "img2",
+        "img": "/img/A1escuela2.jpg"
+      }
+    ],
+    "ubicacion": "Paternal, CABA",
+    "terreno": "300m²",
+    "construido": "200m²",
+    "memoria": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+  },
+  {
+    "id": "9",
+    "name": "Conjunto de Viviendas de baja densidad",
+    "img": "img/A2incubadoras3.jpg",
+    "images": [
+      {
+        "id": "img1",
+        "img": "/img/A2incubadoras1.jpg"
+      },
+      {
+        "id": "img2",
+        "img": "/img/A2incubadoras2.jpg"
+      },
+      {
+        "id": "img3",
+        "img": "/img/A2incubadoras3.jpg"
+      }
+    ],
+    "ubicacion": "Paternal, CABA",
+    "terreno": "300m²",
+    "construido": "200m²",
+    "memoria": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+  },
+  {
+    "id": "10",
+    "name": "Escuela secundaria",
+    "img": "/img/A1escuela1.jpg",
+    "images": [
+      {
+        "id": "img1",
+        "img": "/img/A1escuela1.jpg"
+      },
+      {
+        "id": "img2",
+        "img": "/img/A1escuela2.jpg"
+      }
+    ],
+    "ubicacion": "Paternal, CABA",
+    "terreno": "300m²",
+    "construido": "200m²",
+    "memoria": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
   }
 ]

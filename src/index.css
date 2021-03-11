@@ -10,6 +10,7 @@
 }
 body {
   font-family: 'Raleway', sans-serif;
+  background-color: var(--black);
 }
 /***** BUTTONS *****/
 .btn-border {
@@ -35,9 +36,6 @@ body {
 .navbar {
   height: 10vh;
   width: 100%;
-  /*position: absolute;
-  top: 0px;
-  z-index: 1;*/
   background-color: rgba(42, 42, 42, 0.9);
   display: flex;
   color: var(--white);
@@ -61,7 +59,11 @@ body {
   z-index: 0;
 }
 .carousel-item img {
+  width: 100%;
   height: 100vh;
+  display: block;
+  overflow: hidden;
+  object-fit: cover;
 }
 .carousel-item-homepage img {
   filter: brightness(70%);
@@ -78,26 +80,18 @@ body {
   color: var(--black);
   color: var(--white);
 }
-/***** COLLAPSE *****/
-#collapse-container {
-  position: absolute;
-  top: 15vh;
-  left: 50%;
-  z-index: 1;
+/***** SINGLE PROJECT *****/
+.project-container {
+  margin-top: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.collapse .card-body {
-  background-color: var(--black-transparent);
-  color: var(--white);
-  position: absolute;
-  top: -5vh;
-  left: -50vw;
-  width: 40vw;
-  border-radius: 0;
+.project-container .carousel-item img {
+  height: 80vh;
 }
 #project-info {
-  padding-top: 10vh;
-  min-height: 90vh;
-  margin: 0;
+  color: var(--white);
 }
 #project-info h3 {
   text-transform: uppercase;
@@ -113,4 +107,41 @@ body {
 }
 .project-info-details p {
   line-height: 0.7rem;
+}
+#projects-container {
+  margin-top: 10vh;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 20rem);
+  gap: 1rem;
+}
+.card {
+  border: none;
+  border-radius: 0px;
+}
+.project-card {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--black-transparent);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s opacity;
+}
+.overlay:hover {
+  opacity: 1;
+}
+.titulo h5 {
+  color: var(--white);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8rem;
 }

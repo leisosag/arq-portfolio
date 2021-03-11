@@ -4,12 +4,14 @@ import ProjectInfo from './ProjectInfo.js';
 
 const Project = ({ project }) => {
   return (
-    <div className='row w-100'>
-      <div className='col-lg-8'>
-        <Carousel img={project} type={'singleProyect'} />
-      </div>
-      <div className='col-lg-4'>
-        <ProjectInfo data={project} />
+    <div className='container-fluid'>
+      <div className='row project-container'>
+        <div className='col-lg-7 project-container'>
+          <Carousel img={project} type={'singleProyect'} />
+        </div>
+        <div className='col-lg-5 project-container'>
+          <ProjectInfo data={project} />
+        </div>
       </div>
     </div>
   );
